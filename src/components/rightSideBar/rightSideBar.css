@@ -1,0 +1,145 @@
+.rightSideBar{
+    margin-top: 10px ;
+    margin-right: 10px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    margin-left: 15vh;
+}
+.rightSideBar__top{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.rightSideBar__top__title{
+    display: flex;
+    
+}
+.rightSideBar__top__title h4 ,p{
+    display: flex;
+    align-items: center;
+}
+.rightSideBar__top__title h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #333;
+}
+.rightSideBar__top__title p{
+    font-size: 16px;
+    color: #5AA7FF;
+    margin-left: 140px;
+    padding: 5px;
+}
+.rightSideBar__top__title p:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.rightSideBar__middle{
+    display: flex;
+
+    padding: 10px 0;
+}
+.rightSideBar__middle svg{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.rightSideBar__middle p{
+    font-size: 20px;
+    color: #333;
+    margin-left: 15px;
+    margin-bottom: 45px;
+}
+.rightSideBar__middle__btn{
+    align-items: center;
+}
+.rightSideBar__middle__btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.rightSideBar__middle__btn{
+    margin-top: 18px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.rightSideBar__middle__btn:hover{
+    background-color: #0056b3;
+}
+.rightSideBar__middle__btn :last-child{
+    margin-left: 10px;
+}
+.rightSideBar__middle {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.rightSideBar__contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.rightSideBar__contact__title{
+    display: flex;
+    align-items: center;
+}
+.rightSideBar__contact__title h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.rightSideBar__contact__title__icn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.rightSideBar__contact__list{
+    display: flex;
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+
+}
+.rightSideBar__contact__list p{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #333;
+} 
+.rightSideBar__contact__list_last{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.rightSideBar__community__chats__list{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.rightSideBar__community__chats__list p{
+    font-size: 18px;
+    margin-left: 20px;
+    color: #333;
+}
+.rightSideBar__contact__list_last{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.bar__hover:hover{
+    background-color: rgb(211 211 211/31%);
+    border-radius: 5px;
+}
+.rightSideBar__top__title p :hover{
+    background-color: gray;
+    border-radius: 5px;
+
+}

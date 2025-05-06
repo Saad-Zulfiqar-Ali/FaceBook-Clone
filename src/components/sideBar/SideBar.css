@@ -1,0 +1,31 @@
+.sidebar-container{
+    flex: 0.33;
+    margin-top: 20px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 5px solid #ccc;
+}
+
+
+.sidebar-option{
+    display: flex;
+    padding : 5px 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.sidebar-option p {
+    margin-left: 10px;
+    font-size: 14px;    
+    color: #000;
+    font-weight: bold;
+}
+.sidebar-option:hover {
+    background-color: rgb(211 211 211/31%);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.sidebar-icn{
+    border-bottom: 2px solid #ccc;
+}

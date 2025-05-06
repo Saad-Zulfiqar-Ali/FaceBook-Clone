@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-color: #f0f2f5;
+}
+.app-body{
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

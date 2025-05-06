@@ -1,0 +1,87 @@
+.post{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80vh;
+    margin-left: 50vh;
+    margin-bottom:50px ;
+}
+.post__wrapper{
+    display: flex;
+}
+.post__top{
+    display: flex;
+    align-items: center;
+
+}
+.post__topInfo{
+    margin-left: 10px;
+
+}
+.post__topInfo p{
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.post__topInfo p svg{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.post-icn{
+    margin-left: 58vh;
+}
+.post__bottom{
+    display: flex;
+    border-top: 1px solid lightgray;
+    align-items: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.post__bottom_option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.post__bottom_option p{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.post__bottom_option:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.post__bottom_option svg :hover{
+    color: lightblue;
+}
+
+.post__content{
+    margin-left: 10px;
+}
+
+.post__body{
+    margin-top: 1vh;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+
+.post__title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+.messagePopMiddle h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    margin-left: 7vh ;
+
+}
